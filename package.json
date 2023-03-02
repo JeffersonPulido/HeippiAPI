@@ -1,0 +1,24 @@
+{
+  "name": "apiheippi",
+  "version": "0.0.1",
+  "description": "API Prueba tecnica",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "scripts": {
+    "start": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffersonPulido/HeippiAPITech.git"
+  },
+  "author": "jeffersonpulido",
+  "bugs": {
+    "url": "https://github.com/JeffersonPulido/HeippiAPITech/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
