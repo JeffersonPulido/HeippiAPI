@@ -1,12 +1,9 @@
 var express = require('express') //llamamos a Express
-var mongoose = require('mongoose');
+var bodyParser = require('body-parser')
+/*toda la configuración de bbdd la hacemos en un fichero a parte*/
+require('./db')
 
 var app = express()   
-
-mongoose.connect('mongodb://localhost/apiheippi', function(err, res){
-  if(err) console.log('Error de conexion DB' + err)
-  else console.log("Conexion realizada!")
-})
 
 var port = process.env.PORT || 5000  // establecemos nuestro puerto
 
