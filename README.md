@@ -11,6 +11,8 @@ Para desplegar este proyecto:
 
 ```bash
   Clonar o descargar repositorio
+  npm install
+  npm run dev
 ```
 
 ## API
