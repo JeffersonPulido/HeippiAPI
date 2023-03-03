@@ -7,6 +7,7 @@ const User = require('./routes/user')
 
 App.use(bodyParser.json())
 App.use(bodyParser.urlencoded({extended: false}))
+
 App.use('/user', User)
 
 module.exports = App
