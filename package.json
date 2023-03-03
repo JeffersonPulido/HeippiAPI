@@ -11,14 +11,7 @@
   "scripts": {
     "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JeffersonPulido/HeippiAPITech.git"
-  },
   "author": "jeffersonpulido",
-  "bugs": {
-    "url": "https://github.com/JeffersonPulido/HeippiAPITech/issues"
-  },
   "devDependencies": {
     "nodemon": "^2.0.21"
   }
