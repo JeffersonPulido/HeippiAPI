@@ -39,6 +39,14 @@ App.use('/index', Index)
 const Login = require('../login/app/routes/loginRoute')
 App.use('/login', Login)
 
+//Ruta para SignUp
+const SignUp = require('../login/app/routes/signupRoute')
+App.use('/signup', SignUp)
+
+//Ruta para profile
+const Profile = require('../login/app/routes/profileRoute')
+App.use('/profile', Profile)
+
 //Ruta para la API
 const User = require('./routes/user')
 App.use('/user', User)
