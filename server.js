@@ -2,7 +2,6 @@
 const Database = require('./app/config/database')
 const CONFIG = require('./app/config/config')
 const App = require('./app/app');
-const config = require('./app/config/config');
 
 Database.connect();
 
